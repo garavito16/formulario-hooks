@@ -1,5 +1,6 @@
 
 import React from "react";
+import './DatosFormulario.css'
 
 const DatosFormulario = (props) => {
 
@@ -7,25 +8,25 @@ const DatosFormulario = (props) => {
 
     return (
         <div>
-            <div>Results</div>
-            <div>
-                <label>First Name:</label>
+            <div className="results">Results</div>
+            <div className="grupoForm">
+                <label>First Name: </label>
                 <label>{firstName}</label>
             </div>
-            <div>
-                <label>Last Name:</label>
+            <div className="grupoForm">
+                <label>Last Name: </label>
                 <label>{lastName} </label>
             </div>
-            <div>
-                <label>Email:</label>
+            <div className="grupoForm">
+                <label>Email: </label>
                 <label>{email} </label>
             </div>
-            <div>
-                <label>Password:</label>
+            <div className="grupoForm">
+                <label>Password: </label>
                 <label>{password} </label>
             </div>
-            <div>
-                <label>Confirm password:</label>
+            <div className="grupoForm">
+                <label>Confirm password: </label>
                 <label>{confirmPassword} </label>
             </div>
         </div>
